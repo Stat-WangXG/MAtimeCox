@@ -1,0 +1,25 @@
+Package: MAtimeCOX
+Title: Model Averaging Prediction for Survival Data with Time-Dependent Effects
+Version: 1.0.0
+Date: 2022-03-08
+Depends: R (>= 4.1.0)
+Imports: survival, timereg, splines, quadprog
+Authors@R: 
+    person(given = "Rong",
+           family = "Hu",
+           role = c("aut", "cre"),
+           email = "hr32001003@mail.dlut.edu.cn",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Contains model averaging prediction approach for lifetime
+             data via time-varying coefficient COX model, including 
+             estimation of candidate models and selection of the 
+             corresponding model averaging weight vector.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/1059243903/MAtimeCOX
+BugReports:https://github.com/1059243903/MAtimeCOX/issues
+
